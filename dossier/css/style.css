@@ -229,6 +229,7 @@ section{
 }
 /*my photo2*/
 .about .main img{
+  height: 500px;
   width:100%;
   max-width: 640px; 
   border-radius: 14px; 

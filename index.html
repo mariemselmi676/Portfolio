@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="dossier/css/bootstrap.min.css">
+    <!--CSS -->
     <link rel="stylesheet" href="dossier/css/style.css">
     <!-- Boxicons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
@@ -56,15 +58,36 @@
     </div>
 </section>
 
-<section class="services" id="services">
-    <h2 class="heading">Services</h2>
+<section class="services container py-5 text-center" id="services"> 
+  <h2 class="heading mb-5">Services</h2>
 
-    <div class="box">
-        <a href="#"><i class='bx bxl-html5'></i></a>
-        <a href="#"><i class='bx bxl-css3'></i></a>
-        <a href="#"><i class='bx bxl-vuejs'></i></a>
-        <a href="#"><i class='bx bxl-javascript'></i></a>
+  <div class="row justify-content-center g-4">
+    
+    <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
+      <a href="#" class="service-icon">
+        <i class="bx bxl-html5"></i>
+      </a>
     </div>
+
+    <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
+      <a href="#" class="service-icon">
+        <i class="bx bxl-css3"></i>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
+      <a href="#" class="service-icon">
+        <i class="bx bxl-vuejs"></i>
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
+      <a href="#" class="service-icon">
+        <i class="bx bxl-javascript"></i>
+      </a>
+    </div>
+
+  </div>
 </section>
 
 <section class="contact" id="contact">
@@ -87,8 +110,9 @@
         <input type="submit" value="Submit" class="btn" onclick="btnsubmit()">
     </form>
 </section>
-<!-- Bootstrap-->
+<!-- Bootstrap JS-->
 <script src="dossier/javascript/bootstrap.bundle.min.js"></script>
+<!-- JS -->
 <script src="dossier/javascript/javascript.js"></script>
 </body>
 </html>
